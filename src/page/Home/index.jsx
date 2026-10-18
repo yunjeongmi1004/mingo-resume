@@ -19,7 +19,7 @@ const Home = (props) => {
 
             <s.H2>인적사항</s.H2>
             <s.Section>
-                <s.Img src={profile} alt="profile" />
+                {/* <s.Img src={profile} alt="profile" /> */}
                 <Table row={true} data={personal} title={["이름", "이메일", "전화번호", "홈페이지"]}/>
             </s.Section>
             
